@@ -14,7 +14,6 @@ function App() {
       <Routes>
         <Route path="/2" element={<Page2 />} />
         <Route path="/3" element={<Page3 />} />
-        <Route path="*" element={<h1>Page Not Found!</h1>}/>
         <Route path="/" element={<Page1 />} />
       </Routes>
       <div className="button-container">
