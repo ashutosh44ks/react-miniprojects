@@ -28,6 +28,7 @@ function App() {
           <button className="btn">Page 3</button>
         </Link>
       </div>
+      Thanks for visiting....
     </Router>
   );
 }
