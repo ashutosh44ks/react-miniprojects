@@ -1,4 +1,4 @@
-#Each Mini-Project contains simple applications of a React Hook designed for revision purposes
+# Each Mini-Project contains simple applications of a React Hook designed for revision purposes
 
 
 
