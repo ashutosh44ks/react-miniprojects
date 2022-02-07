@@ -12,19 +12,19 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/2" element={<Page2 />} />
-        <Route path="/3" element={<Page3 />} />
-        <Route path="*" element={<h1>Page Not Found!</h1>}/>
-        <Route path="/" element={<Page1 />} />
+        <Route path="/react-miniprojects" exact element={<Page1 />} />
+        <Route path="/react-miniprojects/2" element={<Page2 />} />
+        <Route path="/react-miniprojects/3" element={<Page3 />} />
+        <Route path="*" element={<h1>Page Not Found!</h1>} />
       </Routes>
       <div className="button-container">
-        <Link to={"/"} key={1}>
+        <Link to={"/react-miniprojects"} key={1}>
           <button className="btn">Page 1</button>
         </Link>
-        <Link to={"/2"} key={2}>
+        <Link to={"/react-miniprojects/2"} key={2}>
           <button className="btn">Page 2</button>
         </Link>
-        <Link to={"/3"} key={3}>
+        <Link to={"/react-miniprojects/3"} key={3}>
           <button className="btn">Page 3</button>
         </Link>
       </div>
