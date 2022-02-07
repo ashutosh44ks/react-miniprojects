@@ -1,3 +1,7 @@
+#Each Mini-Project contains simple applications of a React Hook designed for revision purposes
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
