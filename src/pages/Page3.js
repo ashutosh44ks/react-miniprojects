@@ -1,11 +1,11 @@
 import Hook8 from "../components/Hook8";
-import CustomHook from "../components/CustomHook";
+import Hook9 from "../components/Hook9";
 
 const Page3 = () => {
   return (
     <div className="grid-container">
       <Hook8 title="useLayoutEffect"/>
-      <CustomHook title="Custom Hook"/>
+      <Hook9 title="Custom Hook"/>
     </div>
   );
 };
