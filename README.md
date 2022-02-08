@@ -1,3 +1,7 @@
+# The project contains simple applications of React Hooks designed for revision purposes
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
